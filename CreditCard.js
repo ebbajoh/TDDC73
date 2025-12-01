@@ -1,5 +1,5 @@
 import { Image, View, Text, StyleSheet } from "react-native";
-import { cardLogos } from "../cardLogos";
+import { cardLogos } from "./cardLogos";
 
 export default function CreditCard({ cardNumber, cardName, expiry, cvv, cardType }) {
   return (
@@ -8,7 +8,7 @@ export default function CreditCard({ cardNumber, cardName, expiry, cvv, cardType
       <Image source={cardLogos[cardType]} style={styles.logo} />
 
       {/* Chip */}
-      <Image source={require("../assets/cards/chip.png")} style={styles.chip} />
+      <Image source={require("./assets/cards/chip.png")} style={styles.chip} />
 
       {/* Card Number */}
       <Text style={styles.cardNumber}>{cardNumber}</Text>
