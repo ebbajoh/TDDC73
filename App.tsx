@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import CreditCard from "./CreditCard";
 import { detectCardType } from "./cardType";
-import { formatCardNumber } from "./formatCardNumber"; // skapa denna om du inte gjort det redan
+import { formatCardNumber } from "./formatCardNumber";
 
 export default function App() {
   const [cardNumber, setCardNumber] = useState("");
