@@ -1,11 +1,11 @@
 export const cardLogos = {
-  visa: require("./assets/cards/visa.png"),
-  mastercard: require("./assets/cards/mastercard.png"),
-  amex: require("./assets/cards/amex.png"),
-  discover: require("./assets/cards/discover.png"),
-  dinersclub: require("./assets/cards/dinersclub.png"),
-  jcb: require("./assets/cards/jcb.png"),
-  troy: require("./assets/cards/troy.png"),
-  unionpay: require("./assets/cards/unionpay.png"),
-  unknown: require("./assets/cards/chip.png"), // fallback
+  visa: require("./assets/visa.png"),
+  mastercard: require("./assets/mastercard.png"),
+  amex: require("./assets/amex.png"),
+  discover: require("./assets/discover.png"),
+  dinersclub: require("./assets/dinersclub.png"),
+  jcb: require("./assets/jcb.png"),
+  troy: require("./assets/troy.png"),
+  unionpay: require("./assets/unionpay.png"),
+  unknown: require("./assets/chip.png"), // fallback
 };

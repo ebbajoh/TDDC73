@@ -8,12 +8,12 @@ export default function CreditCard({ cardNumber, cardName, expiry, cvv, cardType
       <Image source={cardLogos[cardType]} style={styles.logo} />
 
       {/* Chip */}
-      <Image source={require("./assets/cards/chip.png")} style={styles.chip} />
+      <Image source={require("./assets/chip.png")} style={styles.chip} />
 
       {/* Card Number */}
       <Text style={styles.cardNumber}>{cardNumber}</Text>
 
-      {/* Bottom Row: Name + Expiry */}
+      {/* Bottom Row: Name + Expiry */}npx react-native run-ios
       <View style={styles.bottomRow}>
         <View>
           <Text style={styles.label}>Card Holder</Text>
