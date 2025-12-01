@@ -1,0 +1,33 @@
+# React Native
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Metro
+.metro/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+
+# Logs
+logs/
+*.log
