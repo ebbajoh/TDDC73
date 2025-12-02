@@ -4,6 +4,7 @@ import { cardLogos } from "./cardLogos";
 export default function CreditCard({ cardNumber, cardName, expiry, cvv, cardType }) {
   return (
     <View style={styles.card}>
+
       {/* Logo (Visa, Mastercard, etc.) */}
       <Image source={cardLogos[cardType]} style={styles.logo} />
 
@@ -13,7 +14,7 @@ export default function CreditCard({ cardNumber, cardName, expiry, cvv, cardType
       {/* Card Number */}
       <Text style={styles.cardNumber}>{cardNumber}</Text>
 
-      {/* Bottom Row: Name + Expiry */}npx react-native run-ios
+      {/* Bottom Row: Name + Expiry */}
       <View style={styles.bottomRow}>
         <View>
           <Text style={styles.label}>Card Holder</Text>
@@ -25,6 +26,7 @@ export default function CreditCard({ cardNumber, cardName, expiry, cvv, cardType
           <Text style={styles.expiry}>{expiry || "MM/YY"}</Text>
         </View>
       </View>
+
     </View>
   );
 }
